@@ -4,4 +4,4 @@ phases:
   build:
     commands:
       - echo "Deploying website to S3"
-      - aws s3 sync . s3://REPLACE-YOUR-BUCKET --delete
+      - aws s3 sync . s3://jitendracicdbucket --delete
